@@ -1,0 +1,47 @@
+# Python-specific ignores
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.idea/
+*.egg
+*.egg-info/
+dist/
+build/
+*.db
+
+# Logs
+*.log
+
+# Test and coverage
+.coverage
+.tox/
+.nox/
+.coverage.*
+*.hypothesis/
+*.pytest_cache/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# MacOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# PyCharm specific files
+.idea/
